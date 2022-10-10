@@ -1,0 +1,148 @@
+#tabs {
+    position: absolute;
+    width: 100%;
+    height: 80%;
+}
+
+.tab {
+    text-decoration: none;
+    color: black;
+    display: block;
+    width: 25%;
+    height: 83px;
+    line-height: 83px;
+    background-color: cornsilk;
+    text-align: center;
+}
+
+.tabctn {
+    width: 60%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    z-index: 10;
+    top: 0px;
+    left: 25%;
+    display: none;
+    border-radius: 0px 15px 15px 0px;
+}
+
+#tabs ul li:hover .tabctn {
+    display: block;
+}
+
+#tabs ul li a {
+    background-color: rgb(43, 42, 64);
+    color: rgb(255, 255, 255);
+}
+
+#tabs ul li:hover a {
+    background-color: rgb(57, 57, 57);
+}
+
+.aborder {
+    font-family: "STZhongsong";
+    border-radius: 15px 0px 0px 0px;
+}
+
+.tabctn1 {
+    background-size: 100% 100%;
+    background-image: url("../../img/in/tabs/1.png");
+}
+
+.tabctn2 {
+    background-size: 80% 100%;
+    background-image: url("../../img/in/tabs/2.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.tabctn3 {
+    background-size: 80% 100%;
+    background-image: url("../../img/in/tabs/3.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.tabctn4 {
+    background-size: 80% 100%;
+    background-image: url("../../img/in/tabs/4.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.tabctn5 {
+    background-size: 80% 100%;
+    background-image: url("../../img/in/tabs/5.png");
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+}
+
+#tab1 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: 15%;
+}
+
+#tab1 img {
+
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+#tab1 img:hover {
+    transition: all 1s;
+    transform: rotateZ(360deg);
+}
+
+#tab1 p {
+    width: 100%;
+    height: 30px;
+    font-size: 24px;
+    font-family: "STKaiti";
+    text-align: center;
+    line-height: 30px;
+}
+
+.p1 {
+    position: absolute;
+    font-size: 2vw;
+    font-family: "STLiti";
+    width: 30px;
+    font-weight: bolder;
+    left: 25%;
+    top: 5%;
+}
+
+.p2 {
+    position: absolute;
+    font-size: 18px;
+    font-family: "STKaiti";
+    width: 18px;
+    left: 20%;
+    top: 10%;
+}
+
+.p3 {
+    position: absolute;
+    font-size: 18px;
+    font-family: "STKaiti";
+    width: 18px;
+    left: 15%;
+    top: 25%;
+}
+
+.tabfont {
+    font-size: 36px;
+    font-family: "STXingKai";
+}
+
+.tabborder {
+    position: absolute;
+    width: 15%;
+    height: 1px;
+    left: 5%;
+    background-color: rgb(114, 114, 114);
+}
